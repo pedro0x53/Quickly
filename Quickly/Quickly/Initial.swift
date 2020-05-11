@@ -28,7 +28,7 @@ class Initial: UIViewController {
         container.backgroundColor = .primaryDark
         
         container.add(container2)
-        container2.backgroundColor = .primaryLight
+        container2.backgroundColor = UIColor(hex: "#8E56C7")
         
         container2.add(large)
         large.topAnchor(container2.safe.top, 10)
