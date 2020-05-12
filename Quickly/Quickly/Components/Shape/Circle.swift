@@ -42,6 +42,7 @@ class Circle: UIView, DefaultProtocol {
     func reset() {
         self.translatesAutoresizingMaskIntoConstraints = false
         self.backgroundColor = .white
+        self.layer.cornerRadius = radius
     }
 
 }
