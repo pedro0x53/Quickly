@@ -12,7 +12,7 @@
 
  👤 **Pedro Sousa**
 * Github: [@pthesea](https://github.com/pthesea)
-* LinkedIn: [Pedro Sousa](https://www.linkedin.com/in/joaopedro27)
+* LinkedIn: [Pedro Sousa](https://www.linkedin.com/in/pedrosousa27)
 
 ## Show your support
 
