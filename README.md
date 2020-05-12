@@ -20,5 +20,5 @@ Give a ⭐️ if this project helped you!
 
 ## 📝 License
 
-Copyright © 2020 [Beatriz Carlos](https://github.com/beacarlos), [Pedro Sousa](https://www.linkedin.com/in/joaopedro27).<br />
+Copyright © 2020 [Beatriz Carlos](https://github.com/beacarlos), [Pedro Sousa](https://github.com/pthesea).<br />
 This project is [Swift]() licensed.
