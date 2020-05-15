@@ -9,7 +9,6 @@
 import UIKit
 
 class Initial: UIViewController {
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         layoutConfigurations()

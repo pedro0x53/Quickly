@@ -49,4 +49,14 @@ extension UIView {
         self.safe.top.constraint(equalTo: self.superview!.safe.top, constant: CGFloat(margin)).isActive = true
         self.safe.bottom.constraint(equalTo: self.superview!.safe.bottom,constant: CGFloat(-margin)).isActive = true
     }
+    
+    func tableview(to superView: UIView) {
+        translatesAutoresizingMaskIntoConstraints = false
+        NSLayoutConstraint.activate([
+            topAnchor.constraint(equalTo: superView.topAnchor),
+            leadingAnchor.constraint(equalTo: superView.leadingAnchor),
+            trailingAnchor.constraint(equalTo: superView.trailingAnchor),
+            bottomAnchor.constraint(equalTo: superView.bottomAnchor)
+        ])
+    }
 }

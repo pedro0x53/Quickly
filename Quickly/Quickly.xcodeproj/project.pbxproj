@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		77FA2B10246F063800589EE8 /* TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77FA2B0F246F063800589EE8 /* TableView.swift */; };
 		FE8D6B6B246C1D2A001F3628 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8D6B6A246C1D2A001F3628 /* Image.swift */; };
 		FED55BB7246AD9EB003A615C /* Square.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED55BB6246AD9EB003A615C /* Square.swift */; };
 		FED55BB9246AFA6E003A615C /* Rectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED55BB8246AFA6E003A615C /* Rectangle.swift */; };
@@ -26,6 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		77FA2B0F246F063800589EE8 /* TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableView.swift; sourceTree = "<group>"; };
 		FE8D6B6A246C1D2A001F3628 /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
 		FED55BB6246AD9EB003A615C /* Square.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Square.swift; sourceTree = "<group>"; };
 		FED55BB8246AFA6E003A615C /* Rectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rectangle.swift; sourceTree = "<group>"; };
@@ -57,6 +59,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		77FA2B0E246F061700589EE8 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				77FA2B0F246F063800589EE8 /* TableView.swift */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
 		FED55BB5246AD9D8003A615C /* Shape */ = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +111,7 @@
 		FEFDADF12469D93B003C8384 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				77FA2B0E246F061700589EE8 /* TableView */,
 				FED55BB5246AD9D8003A615C /* Shape */,
 				FEFDADF42469D9C4003C8384 /* Container.swift */,
 				FEFDADF32469D9C4003C8384 /* Text.swift */,
@@ -227,6 +238,7 @@
 				FEFDADF62469D9C4003C8384 /* Text.swift in Sources */,
 				FED55BB7246AD9EB003A615C /* Square.swift in Sources */,
 				FEFDAE012469DA43003C8384 /* Color.swift in Sources */,
+				77FA2B10246F063800589EE8 /* TableView.swift in Sources */,
 				FEFDAE0A2469EF1C003C8384 /* Anchors.swift in Sources */,
 				FED55BB9246AFA6E003A615C /* Rectangle.swift in Sources */,
 			);
